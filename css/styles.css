@@ -58,8 +58,11 @@ section {
 }
 
 article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: white;
-    padding: 20px;
+    padding: 45px 20px;
     text-align: center;
     height: 115%;
     width: 120%;
